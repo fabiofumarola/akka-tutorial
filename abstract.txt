@@ -1,0 +1,9 @@
+Reactive programming is an emerging discipline which aim at developing concurrent, event-base and asynchronous systems. This is essential to allow developers building systems that are event-driven, scalable, resilient and responsive: delivering highly responsive user experiences with a real-time feel, backed by a scalable and resilient application stack, ready to be deployed on multicore and cloud computing architectures. 
+Reactive programming can be seen as a natural extension of functional programming to concurrent systems with a distributed state and where actions are orchestrated by data streams exchanged by actors.
+Writing these kind of applications is very hard. Most of the time it's because are used the wrong tools and the wrong level of abstraction. In this seminar we will discover key elements for writing reactive applications using Akka. Using Akka we raise the abstraction level and provide a better platform to build scalable, resilient and responsive applications. We will discuss the following topics. 
+
+Actor: why Actors, the Actor Model, asynchronous message passing, Actor system design and test.
+Supervision: Introduces reification of failure, hierarchical failure handling, the Error Kernel pattern and actor persistence
+Distribution: actor distribution, scalability and responsiveness
+and maybe
+Persistence: model of persistence
